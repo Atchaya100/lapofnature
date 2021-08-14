@@ -1,0 +1,36 @@
+.slider{
+    overflow:hidden;
+    border:4px solid black;
+    border-radius:5px;
+    margin:28px;
+    width:auto;
+    height:300px;
+    display:inline-flex;
+    
+}
+.slider img{
+    width:100%;
+    height:300px;
+
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .slider{
+        overflow:hidden;
+        border:4px solid black;
+        border-radius:5px;
+        margin:8px;
+        width:auto;
+        height:fit-content;
+        display:inline-flex;
+        
+    }
+    .slider img{
+        width:100%;
+        height:100px;
+    
+    }
+}
+
+
+
+

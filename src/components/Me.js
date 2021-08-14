@@ -4,8 +4,8 @@ import './Main.css'
 function Me(){
     return(
         <div className="text3">
-            <img src={blog} className="image4" alt=""/>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <center>   <img src={blog} className="image4" alt=""/></center>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             “ I am Meena, Principal at Isha Vidhya Matric Higher Secondary school  
         situated in Thoothukudi, Tamilnadu, India. It's a nice opputurnity to work
             in this institution. Not only students, all who belongs to Isha Vidhya will

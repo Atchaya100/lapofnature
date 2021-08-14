@@ -1,7 +1,9 @@
 import './Main.css';
-function Extra({content}){
+function Extra({id,content}){
 return(
-    <div className="text2">{content}</div>
+    <div key={id} className="text2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{content}<br></br>
+    
+   </div>
 )
 }
 export  default Extra

@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './Home'
+
 
 
 function Api(){
@@ -7,10 +7,9 @@ function Api(){
     return(
         <div>
   
-              <div>
-          
-
-          </div> 
+  <br></br>
+      
+     
         </div>
     )
 }

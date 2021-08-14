@@ -18,6 +18,7 @@ function Main(){
                 <li><Link to='/tips' style={{textDecoration:'none',color:'white'}}>Tips</Link></li>
                 <li><Link to='/me' style={{textDecoration:'none',color:'white'}}>About Me</Link></li> </ul>
        </div>
+      
             
                
          

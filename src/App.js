@@ -3,7 +3,10 @@ import Home1 from './components/Home1';
 import Thought from './components/Thought';
 import Tips from './components/Tips'
 import Me from './components/Me';
+import Articles from './components/Articles';
 import Footer from './components/Footer';
+import Images from './components/Images';
+import Videos from './components/Videos';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
            <Tips/>
          </Route>
          <Route path='/me'><Me/></Route>
+         <Route path='/posts'><Articles/></Route>
+         <Route path='/images'><Images/></Route>
+         <Route path='/videos'><Videos/></Route>
        </Switch>
       <Footer/>
     </div>
